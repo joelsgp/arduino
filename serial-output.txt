@@ -74,3 +74,5 @@
 15:17:01.515 ->    0      3  PCD_Authenticate() failed: Timeout in communication.
 15:17:01.582 -> 
 
+Warning: this example overwrites the UID of your UID changeable card, use with care!
+Warning: this example overwrites the UID of your UID changeable card, use with care!

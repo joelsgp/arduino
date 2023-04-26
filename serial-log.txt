@@ -1,0 +1,61 @@
+time="2023-04-26T15:34:02+01:00" level=info msg="Config file not found, using default values"
+time="2023-04-26T15:34:02+01:00" level=info msg="arduino-cli version 0.32.2-arch"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loading hardware from: /home/joelm/.arduino15/packages"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loading package arduino from: /home/joelm/.arduino15/packages/arduino/hardware"
+time="2023-04-26T15:34:02+01:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2023-04-26T15:34:02+01:00" level=info msg="Checking existence of 'tools' path: /home/joelm/.arduino15/packages/arduino/tools"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loading tools from dir: /home/joelm/.arduino15/packages/arduino/tools"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loading package builtin from: /home/joelm/.arduino15/packages/builtin"
+time="2023-04-26T15:34:02+01:00" level=info msg="Checking existence of 'tools' path: /home/joelm/.arduino15/packages/builtin/tools"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loading tools from dir: /home/joelm/.arduino15/packages/builtin/tools"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.8"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+time="2023-04-26T15:34:02+01:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.13.0"
+time="2023-04-26T15:34:02+01:00" level=info msg="Checking signature" index=/home/joelm/.arduino15/package_index.json signatureFile=/home/joelm/.arduino15/package_index.json.sig trusted=true
+time="2023-04-26T15:34:02+01:00" level=info msg="Adding libraries dir" dir=/home/joelm/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2023-04-26T15:34:02+01:00" level=info msg="Loading libraries index file" index=/home/joelm/.arduino15/library_index.json
+time="2023-04-26T15:34:02+01:00" level=info msg="Adding libraries dir" dir=/home/joelm/Arduino/libraries location=user
+time="2023-04-26T15:34:02+01:00" level=info msg="Executing `arduino-cli monitor`"
+time="2023-04-26T15:34:02+01:00" level=info msg="starting discovery builtin:serial-discovery process"
+time="2023-04-26T15:34:02+01:00" level=info msg="starting discovery builtin:mdns-discovery process"
+time="2023-04-26T15:34:02+01:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.32.2-arch\" to discovery builtin:serial-discovery"
+time="2023-04-26T15:34:02+01:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.32.2-arch\" to discovery builtin:mdns-discovery"
+time="2023-04-26T15:34:02+01:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+time="2023-04-26T15:34:02+01:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2023-04-26T15:34:02+01:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+time="2023-04-26T15:34:02+01:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+time="2023-04-26T15:34:02+01:00" level=info msg="from discovery builtin:serial-discovery received message type: add, port: /dev/ttyACM0"
+time="2023-04-26T15:34:02+01:00" level=info msg="Starting monitor process" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="Monitor process started successfully!" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command" command="HELLO 1 \"arduino-cli 0.32.2-arch\"" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="received message" error=false event_type=hello message=OK monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command" command=DESCRIBE monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="received message" error=false event_type=describe message=OK monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command" command=QUIT monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="received message" error=false event_type=quit message=OK monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="Killing monitor process" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=error msg="stopped decode loop: EOF" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="Monitor process killed" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="Starting monitor process" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="Monitor process started successfully!" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command" command="HELLO 1 \"arduino-cli 0.32.2-arch\"" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="received message" error=false event_type=hello message=OK monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command" command=DESCRIBE monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="received message" error=false event_type=describe message=OK monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="sending command" command="OPEN 127.0.0.1:37219 /dev/ttyACM0" monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="received message" error=false event_type=open message=OK monitor=serial-monitor
+time="2023-04-26T15:34:02+01:00" level=info msg="Port /dev/ttyACM0 successfully opened"
+time="2023-04-26T15:35:05+01:00" level=error msg="stopped decode loop: read |0: file already closed" monitor=serial-monitor
+time="2023-04-26T15:36:54+01:00" level=error msg="stopped decode loop: EOF" monitor=serial-monitor
+time="2023-04-26T15:37:11+01:00" level=error msg="stopped decode loop: EOF" monitor=serial-monitor
+time="2023-04-26T15:39:11+01:00" level=error msg="stopped decode loop: EOF" monitor=serial-monitor
