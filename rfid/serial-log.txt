@@ -1,0 +1,76 @@
+15:07:51.293 -> *****************************
+15:07:51.293 -> MFRC522 Digital self test
+15:07:51.293 -> *****************************
+15:07:51.293 -> Firmware Version:⸮*****************************
+15:07:52.290 -> MFRC522 Digital self test
+15:07:52.323 -> *****************************
+15:07:52.323 -> Firmware Version: 0xB2 = (unknown)
+15:07:52.389 -> -----------------------------
+15:07:52.389 -> Only known versions supported
+15:07:52.423 -> -----------------------------
+15:07:52.456 -> Performing test...
+15:07:52.489 -> -----------------------------
+15:07:52.523 -> Result: DEFECT or UNKNOWN
+15:07:52.556 -> 
+15:14:23.674 -> *****************************
+15:14:23.707 -> MFRC522 Digital self test
+15:14:23.741 -> *****************************
+15:14:23.774 -> Firmware Version: 0xB2 = (unknown)
+15:14:23.807 -> -----------------------------
+15:14:23.840 -> Only known versions supported
+15:14:23.873 -> -----------------------------
+15:14:23.907 -> Performing test...
+15:14:23.907 -> -----------------------------
+15:14:23.940 -> Result: DEFECT or UNKNOWN
+15:14:23.973 -> 
+
+15:16:32.758 -> Firmware Version: 0xB2 = (unknown)
+15:16:32.758 -> Scan PICC to see UID, SAK, type, and data blocks...
+15:16:33.721 -> Firmware Version: 0xB2 = (unknown)
+15:16:33.755 -> Scan PICC to see UID, SAK, type, and data blocks...
+15:16:58.624 -> Card UID: A3 5B DA 6A
+15:16:58.657 -> Card SAK: 18
+15:16:58.690 -> PICC type: MIFARE 4KB
+15:16:58.690 -> Sector Block   0  1  2  3   4  5  6  7   8  9 10 11  12 13 14 15  AccessBits
+15:16:58.790 ->   39    255  PCD_Authenticate() failed: Timeout in communication.
+15:16:58.857 ->   38    239  PCD_Authenticate() failed: Timeout in communication.
+15:16:58.923 ->   37    223  PCD_Authenticate() failed: Timeout in communication.
+15:16:58.989 ->   36    207  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.056 ->   35    191  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.122 ->   34    175  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.189 ->   33    159  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.255 ->   32    143  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.355 ->   31    127  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.421 ->   30    123  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.488 ->   29    119  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.554 ->   28    115  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.621 ->   27    111  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.687 ->   26    107  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.754 ->   25    103  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.820 ->   24     99  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.887 ->   23     95  PCD_Authenticate() failed: Timeout in communication.
+15:16:59.953 ->   22     91  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.053 ->   21     87  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.119 ->   20     83  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.186 ->   19     79  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.252 ->   18     75  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.319 ->   17     71  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.385 ->   16     67  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.451 ->   15     63  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.518 ->   14     59  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.584 ->   13     55  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.651 ->   12     51  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.717 ->   11     47  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.817 ->   10     43  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.884 ->    9     39  PCD_Authenticate() failed: Timeout in communication.
+15:17:00.950 ->    8     35  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.017 ->    7     31  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.083 ->    6     27  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.150 ->    5     23  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.216 ->    4     19  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.283 ->    3     15  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.349 ->    2     11  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.415 ->    1      7  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.515 ->    0      3  PCD_Authenticate() failed: Timeout in communication.
+15:17:01.582 -> 
+
