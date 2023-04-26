@@ -27,13 +27,13 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define RST_PIN   9     // Configurable, see typical pin layout above
-#define SS_PIN    10    // Configurable, see typical pin layout above
+#define RST_PIN   5     // Configurable, see typical pin layout above
+#define SS_PIN    53    // Configurable, see typical pin layout above
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance
 
 /* Set your new UID here! */
-#define NEW_UID {0xDE, 0xAD, 0xBE, 0xEF}
+#define NEW_UID {0xA3, 0x5B, 0xDA, 0x6A}
 
 MFRC522::MIFARE_Key key;
 
